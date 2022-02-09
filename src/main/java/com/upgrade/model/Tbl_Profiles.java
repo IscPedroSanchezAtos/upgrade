@@ -7,18 +7,19 @@ import javax.persistence.Id;
 @Entity
 public class Tbl_Profiles {
 
+	
 	@Id
-	private int IdProfile;
+	private int id_profile;
 	
 	@Column
 	private String Profile;
 
-	public int getIdProfile() {
-		return IdProfile;
+	public int getId_profile() {
+		return id_profile;
 	}
 
-	public void setIdProfile(int idProfile) {
-		IdProfile = idProfile;
+	public void setId_profile(int id_profile) {
+		this.id_profile = id_profile;
 	}
 
 	public String getProfile() {
@@ -26,7 +27,8 @@ public class Tbl_Profiles {
 	}
 
 	public void setProfile(String profile) {
-		Profile = profile;
+		this.Profile = profile;
 	}
+
 	
 }

@@ -1,7 +1,6 @@
 package com.upgrade.model;
 
 
-import java.util.*;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -10,104 +9,104 @@ import javax.persistence.Id;
 public class Tbl_Users {
 
 	@Id
-	private int IdUser;
+	private int id_user;
 	
 	@Column
-	private String UserName;
+	private String user_name;
 	
 	@Column
-	private String Password;
+	private String password;
 	
 	@Column
-	private int IdProfile;
+	private int id_profile;
 	
 	@Column
-	private int IdEmployee;
+	private int id_employee;
 	
 	@Column 
-	private String Staus;
+	private String status;
 	
 	@Column
-	private Date CreatedDate;
+	private String create_date;
 	
 	@Column
-	private Date UpdateDate;
+	private String update_date;
 	
 	@Column
-	private String Login;
+	private String login;
 
-	public int getIdUser() {
-		return IdUser;
+	public int getId_user() {
+		return id_user;
 	}
 
-	public void setIdUser(int idUser) {
-		IdUser = idUser;
+	public void setId_user(int id_user) {
+		this.id_user = id_user;
 	}
 
-	public String getUserName() {
-		return UserName;
+	public String getUser_name() {
+		return user_name;
 	}
 
-	public void setUserName(String userName) {
-		UserName = userName;
+	public void setUser_name(String user_name) {
+		this.user_name = user_name;
 	}
 
 	public String getPassword() {
-		return Password;
+		return password;
 	}
 
 	public void setPassword(String password) {
-		Password = password;
+		this.password = password;
 	}
 
-	public int getIdProfile() {
-		return IdProfile;
+	public int getId_profile() {
+		return id_profile;
 	}
 
-	public void setIdProfile(int idProfile) {
-		IdProfile = idProfile;
+	public void setId_profile(int id_profile) {
+		this.id_profile = id_profile;
 	}
 
-	public int getIdEmployee() {
-		return IdEmployee;
+	public int getId_employee() {
+		return id_employee;
 	}
 
-	public void setIdEmployee(int idEmployee) {
-		IdEmployee = idEmployee;
+	public void setId_employee(int id_employee) {
+		this.id_employee = id_employee;
 	}
 
-	public String getStaus() {
-		return Staus;
+	public String getStatus() {
+		return status;
 	}
 
-	public void setStaus(String staus) {
-		Staus = staus;
+	public void setStatus(String status) {
+		this.status = status;
 	}
 
-	public Date getCreatedDate() {
-		return CreatedDate;
+	public String getCreate_date() {
+		return create_date;
 	}
 
-	public void setCreatedDate(Date createdDate) {
-		CreatedDate = createdDate;
+	public void setCreate_date(String create_date) {
+		this.create_date = create_date;
 	}
 
-	public Date getUpdateDate() {
-		return UpdateDate;
+	public String getUpdate_date() {
+		return update_date;
 	}
 
-	public void setUpdateDate(Date updateDate) {
-		UpdateDate = updateDate;
+	public void setUpdate_date(String update_date) {
+		this.update_date = update_date;
 	}
 
 	public String getLogin() {
-		return Login;
+		return login;
 	}
 
 	public void setLogin(String login) {
-		Login = login;
+		this.login = login;
 	}
-	
+
 	
 	
 }
